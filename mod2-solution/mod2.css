@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    font-size: 1.75em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid white;
+    text-align: center;
+    margin: 1.5em;
+}
+
+.row {
+    width: 100%;
+    
+}
+
+.col4 {
+    border: 1px solid black;
+    width: 32%;
+    margin: 0.66%;
+    padding: 1em;
+    float: left;
+    position:relative;
+    background-color: antiquewhite;
+}
+
+.name {
+    position:absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    text-align: center;
+    font-size: 1.25em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0.3em;
+    border: 1px solid black;
+}
+.name1 {
+    background-color: rgb(20, 160, 20);
+    color: white;
+}
+.name2 {
+    background-color: rgb(34, 103, 182);
+    color: rgb(245, 241, 21);
+}
+.name3 {
+    background-color: rgb(192, 120, 37);
+    color: rgb(24, 14, 14);
+}
+.ex {
+    padding: 1em;
+    margin-top: 0.5em;
+     
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col6 {
+        width: 49%;
+        margin: 0.5%;
+        float: left;
+    }    
+    .col12 {
+        width: 99%;
+        float: left;
+        margin: 0.5%;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .col4 {
+        width: 80%;
+        margin: 5% 10%;
+    }
+}
